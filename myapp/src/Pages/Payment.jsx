@@ -289,7 +289,7 @@ const Payment = () => {
 
 <Button
 onClick={() =>
-  {data.length<=0?   toast({
+  {data.length<0?   toast({
     title: 'Error!!!',
     description: " Address is Missing ",
     position:'bottom',
