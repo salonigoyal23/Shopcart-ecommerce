@@ -1,6 +1,6 @@
-<h1>Ezyshop</h1>
+<h1>Shopcart</h1>
 
-This is a clone of template given to us.
+This is a clone of the dribble template given to us.
 
 <h3>Live Link: </h3> 
 
