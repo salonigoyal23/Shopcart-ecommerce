@@ -16,21 +16,11 @@ const Top = () => {
         <p style={{ color: "white" }}>Get 50% off on Selected items  </p> <p style={{ color: "white" }}> |  Shop Now</p>
       </div>
       <div className='end'>
-
-
         <p style={{ color: "white" }} id='lang'><Link>Eng</Link></p>
-
-
         <p style={{ color: "white" }} className='loc'><Link>Location</Link></p>
-
-
-
-
       </div>
-
-
     </div>
   )
 }
 
-export default Top
+export default Top;

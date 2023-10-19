@@ -43,7 +43,7 @@ function Login() {
   return (
     <div className={styles.container}>
       <div className={styles.innerBox}>
-        <h1 className={styles.heading}>Login</h1>
+        <h1 className={styles.heading}>Login here!</h1>
 
         <InputControl
           label="Email"
@@ -66,7 +66,7 @@ function Login() {
             Login
           </button>
           <p>
-            Already have an account?{" "}
+            Don't have an account?{" "}
             <span>
               <Link to="/signup">Sign up</Link>
             </span>

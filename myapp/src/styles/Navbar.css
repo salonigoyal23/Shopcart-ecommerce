@@ -66,15 +66,13 @@ body {
     /* border:1px solid blue; */
     margin-left: 40px;
     display: flex;
-    justify-content: center;
     align-items: end;
-    width: max-content;
     height: 100%;
   }
   .logo_div {
     /* margin-right: 15px; */
     /* border: 1px solid green; */
-    width: 100px;
+    width: 55%;
   
     height: 75%;
     cursor: pointer;
@@ -96,14 +94,12 @@ body {
   
   .menu_div {
     /* border: 1px solid teal; */
-    margin-left: 10px;
     display: flex;
-    width: 490px;
+    width: 605px;
     justify-content: space-evenly;
     /* flex-wrap: nowrap; */
     height: 100%;
     align-items: flex-end;
-    text-align: left;
   }
   
   .menu_div > Link {
@@ -135,14 +131,12 @@ body {
   }
   
   #search {
-    height: 32px;
-    width: 340px;
+    height: 37px;
+    width: 350px;
     border-radius: 5px;
     background-color: rgb(247, 247, 252);
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
     padding-left: 10px;
-    border-left: 1px solid blue;
-    border: 0;
   }
   
   #search:focus {
@@ -193,6 +187,7 @@ body {
     display: inline-block;
     position: relative;
     height: 70%;
+
   }
   #main_div:hover {
     border-bottom: 3px solid #003D29;
@@ -203,9 +198,8 @@ body {
     cursor: pointer;
     text-decoration: none;
     color: rgb(40, 44, 63);
-    font-size: 15px;
-    font-weight: 500;
-    font-size: 14px;
+    font-size: 10px;
+    font-weight: 200;
   }
   
   #button:hover {
@@ -265,12 +259,13 @@ body {
   }
   
   #ls {
-    margin-left: 15px;
-    background-color: white;
-    color: grey;
+    background-color: #003D29;
+    color: white;
     font-weight: 600;
     height: 40px;
-    border: 1px solid rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 6px;
+
   }
   
   #ls:hover {
@@ -279,13 +274,16 @@ body {
   }
   
   #lp {
-    margin-left: 15px;
+    /* margin-left: 15px; */
+    margin-top: 10px;
   }
   
   #lh5 {
-    text-align: left;
-    padding-left: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
   }
+
   #lh5:hover {
     color: #003D29;
   }
@@ -410,7 +408,7 @@ body {
   }
   
   ul > li > a:hover {
-    color: blue;
+    color:  #003D29;
     transition: 0.2s;
   }
   

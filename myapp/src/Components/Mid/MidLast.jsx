@@ -79,7 +79,7 @@ const MidLast = () => {
             <Image src='https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63ea2d253f08a89912d90709_Ellipse%20287.png'/>
         </Box>
     </Box>
-        <Stack mt={6} ml={2} >
+        <Stack mt={6} ml={0} >
             <Heading size='md'>Staples</Heading>
             <Flex  alignItems={'center'}>Bag<BsDot/>Perfume</Flex>
             <Flex color={'pink.600'} gap={2} alignItems={'center'}><AiFillTag/>Delivery with in 24 hours</Flex>
@@ -165,7 +165,7 @@ const MidLast = () => {
         <Card bg={'#f5f6f6'} borderRadius='md' >
           <Stack gap={5} ml={6} p={10} >
             <Heading size={'md'}>Home Delivery <br /> Options</Heading>
-            <Text>Update on Safe Shoping <br /> in our Stores</Text>
+            <Text>Update on Safe Shopping <br /> in our Stores</Text>
           </Stack>
           <Box>
             <Image borderBottomRadius='lg' src="https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63e8c4e544663ba3d0fd2bb8_home%20delivery-min.png"/>
@@ -176,4 +176,4 @@ const MidLast = () => {
   )
 }
 
-export default MidLast
+export default MidLast;

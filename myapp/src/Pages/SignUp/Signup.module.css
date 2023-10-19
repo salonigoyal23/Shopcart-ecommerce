@@ -2,12 +2,17 @@
     height: 100%;
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(to right, #9900ff, #cc80ff);
+    background: linear-gradient(to right, 
+    #003d29, #336600);
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+  .heading{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
   .innerBox {
     min-width: 480px;
     height: fit-content;
@@ -37,7 +42,7 @@
   .footer button {
     outline: none;
     border: none;
-    background-color: #9900ff;
+    background-color: #003d29;
     color: #fff;
     border-radius: 5px;
     font-weight: bold;
@@ -53,7 +58,7 @@
   }
   
   .footer button:hover {
-    background-color: #aa2aff;
+    background-color: #003d29;
   }
   
   .footer p {
@@ -63,7 +68,7 @@
   
   .footer p span a {
     font-weight: bold;
-    color: #9900ff;
+    color: #003d29;
     letter-spacing: 1px;
     font-size: 1rem;
     text-decoration: none;

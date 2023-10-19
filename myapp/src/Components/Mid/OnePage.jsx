@@ -10,8 +10,6 @@ const OnePage = () => {
     
     <Box m={{base:'5px 45px 10px 50px',}} >
 
- 
-
     <Box position="relative" h={'500px'}  >
 
   <Image src="https://w0.peakpx.com/wallpaper/480/705/HD-wallpaper-enchanted-by-the-music-girl-model-music-headphones-white-woman-pink.jpg" h='100%' />
@@ -24,8 +22,6 @@ const OnePage = () => {
             w={"25%"} borderRadius={'20px'} p={5} mt={10}
             >Learn More</Button>
         </Box>
-
-
     </Box>
 </Box>
   )

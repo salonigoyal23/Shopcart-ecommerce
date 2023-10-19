@@ -3,7 +3,7 @@ export const todaydeals = [
         img: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/31FADBaOJ+L._AC_SY200_.jpg",
         discount: 78,
         Dealofday: "Deal of the day",
-        desc: "Headsts Mania Deals"
+        desc: "Headsets Mania Deals"
 
     },
     {
@@ -31,7 +31,7 @@ export const todaydeals = [
         img: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91R5ZVI5s8L._AC_SY200_.jpg",
         discount: 49,
         Dealofday: "Deal of the day",
-        desc: "Top deals on PUMA,Skechers,Reebok"
+        desc: "Top deals on PUMA,Sketchers,Reebok"
 
     },
     {
@@ -45,21 +45,21 @@ export const todaydeals = [
         img: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91R5ZVI5s8L._AC_SY200_.jpg",
         discount: 49,
         Dealofday: "Deal of the day",
-        desc: "Top deals on PUMA,Skechers,Reebok"
+        desc: "Top deals on PUMA,Sketchers,Reebok"
 
     },
     {
         img: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91R5ZVI5s8L._AC_SY200_.jpg",
         discount: 49,
         Dealofday: "Deal of the day",
-        desc: "Top deals on PUMA,Skechers,Reebok"
+        desc: "Top deals on PUMA,Sketchers,Reebok"
 
     },
     {
         img: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/31FADBaOJ+L._AC_SY200_.jpg",
         discount: 78,
         Dealofday: "Deal of the day",
-        desc: "Headsts Mania Deals"
+        desc: "Headsets Mania Deals"
 
     },
     {

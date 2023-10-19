@@ -5,9 +5,11 @@
 
 .categories {
   border-radius: 15px;
+  margin: auto;
 }
 .categories_section{
   margin-bottom: 400px;
+  justify-content: center;
 }
 .head-text {
   position: relative;

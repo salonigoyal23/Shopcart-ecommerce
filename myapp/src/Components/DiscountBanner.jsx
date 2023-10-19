@@ -8,7 +8,7 @@ const DiscountBanner = () => {
                 <div className="discount-banner-content-two d-flex">
                     <div className="discount-banner-content-inner">
                         <h2 className="discount-title mw100">
-                            Get 5% Cash back
+                            Get flat 5% Cash back on every purchase with shopcart card
                         </h2>
                         <p className="banner-discount-paragraph mb-30">
                             on Shopcart.com

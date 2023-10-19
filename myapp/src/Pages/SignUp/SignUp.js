@@ -43,7 +43,7 @@ function Signup() {
   return (
     <div className={styles.container}>
       <div className={styles.innerBox}>
-        <h1 className={styles.heading}>Signup</h1>
+        <h1 className={styles.heading}>Signup to Shopcart</h1>
 
         <InputControl
           label="Name"
