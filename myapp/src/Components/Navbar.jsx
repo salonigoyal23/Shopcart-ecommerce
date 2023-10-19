@@ -32,7 +32,7 @@ const Navbar = () => {
                                 <div className="div" id="d1">
                                     <h5 className="h5"><Link to="/productpage">Furniture</Link></h5>
                                     <ul>
-                                        <li><Link to="/productpage">T-shirts</Link></li>
+                                        <li><Link to="/productpage">HeadPhones</Link></li>
                                         <li><Link to="/productpage">Casual Shirts</Link></li>
                                         <li><Link to="/productpage">Formal Shirts</Link></li>
                                         <li><Link to="/productpage">Sweatshirts</Link></li>

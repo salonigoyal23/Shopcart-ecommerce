@@ -2,12 +2,16 @@ import React, { useEffect, useState } from 'react';
 import "../styles/Singlepage.css";
 import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
+import Cart from './Cart'; 
 
 const SingleProductPage = () => {   
 
 
 
   const [product456,setproduct456]=useState({})
+  const [cartItems, setCartItems] = useState([]);
+  const [isCartOpen, setIsCartOpen] = useState(false);
+
   const imgs = document.querySelectorAll('.img-select a');
   const imgBtns = [...imgs];
   let imgId = 1;
@@ -20,36 +24,28 @@ const SingleProductPage = () => {
     });
   });
 
+  const addToCart = () => {
+    setCartItems([...cartItems, { ...product456, quantity: 1 }]);
+    setIsCartOpen(true); // Open the cart when an item is added
+  };
+
+  const removeFromCart = (productId) => {
+    // Remove item from the cart based on productId
+    const updatedCart = cartItems.filter((item) => item.id !== productId);
+    setCartItems(updatedCart);
+  };
+
+  const updateQuantity = (itemId, newQuantity) => {
+    setCartItems((prevItems) =>
+      prevItems.map((item) =>
+        item.id === itemId ? { ...item, quantity: newQuantity } : item
+      )
+    );
+  };
+
   const {brand,category,description,id,img,price,quantity,rating,title}=product456;
   const old=price+50
 
- //   brand
-// : 
-// "MadRabbit"
-// category
-// : 
-// "Headphone"
-// description
-// : 
-// "Headphones with Foldable Over Ear Wireless Bluetooth(Black)"
-// id
-// : 
-// 2
-// img
-// : 
-// ['https://m.media-amazon.com/images/I/41SEDU2d-VL._AC_UY218_.jpg']
-// price
-// : 
-// 329
-// quantity
-// : 
-// 1
-// rating
-// : 
-// 5
-// title
-// : 
-// "MadRabbit Touch ANC"
 
   function slideImage() {
     const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
@@ -66,6 +62,8 @@ const SingleProductPage = () => {
     setproduct456(res.data)
   })
   },[val])
+
+  console.log(cartItems);
 
   console.log(product456,"products")
   return (
@@ -159,9 +157,10 @@ const SingleProductPage = () => {
 
             <span>Quantity: {"                               "}<input style={{ width: "125px", border: "2px solid black", fontWeight: "bolder" }} type="number" min="1" defaultValue={"1"} /></span>
             <br />
-            <button style={{ width: "125px" }} type="button" class="btn">
+            <button  onClick={addToCart} style={{ width: "125px" }} type="button" class="btn">
              
-              <Link to="/payment"> Add to Cart</Link>
+              {/* <Link to="/payment" onClick={addToCart}> Add to Cart</Link> */}
+              Add to Cart
             </button>
 
             <button style={{ width: "125px" }} type="button" class="btn">Buy Now {"    "} </button>
@@ -170,6 +169,7 @@ const SingleProductPage = () => {
 
         </div>
       </div>
+      {isCartOpen && <Cart cartItems={cartItems} updateQuantity={updateQuantity} removeFromCart={removeFromCart} />}
     </div>
 
 
