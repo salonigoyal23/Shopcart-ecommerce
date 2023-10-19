@@ -1,4 +1,4 @@
-<h1>Ezyshop</h1>
+<h1>Shopcart</h1>
 
 This is a clone of template given to us.
 
@@ -26,20 +26,13 @@ Shopcart is a e-commerce website which is made by a group of 3 members in a span
 
 
            
-<h3>Screenshots:</h3>
-<img src="src/images/homepage.png" alt="screenshot" /> 
-<img src="src/images/homepage1.png" alt="screenshot" /> 
-<img src="src/images/homepage2.png" alt="screenshot" /> 
-<img src="src/images/products.png" alt="screenshot" /> 
-<img src="src/images/singleproduct.png" alt="screenshot" /> 
-
 <h3>Technologies Used:</h3>
 <ul>
         <li>React</li>
         <li>React-Redux</li>
-        <li>Firebase</li>
-        <li>Reqres</li>
         <li>CSS</li>
+        <li>HTML</li>
+        <li>Javascript</li>
 </ul>
 
 
