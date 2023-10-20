@@ -1,12 +1,12 @@
 <h1>Shopcart</h1>
 
-This is a clone of template given to us.
+This is a clone of the dribble template given to us.
 
 <h3>Live Link: </h3> 
 
 
 <h3>About the Project:</h3>
-Shopcart is a e-commerce website which is made by a group of 3 members in a span of 5 days. The motive of making this was to practice and test our skills that we acquired as of now in Masai School. 
+Shopcart is an e-commerce website which is made by a group of 4 members in a span of 5 days. The motive for making this was to practice and test the skills that we acquired in Masai School. 
 
 
 ## Features ✨
@@ -14,7 +14,7 @@ Shopcart is a e-commerce website which is made by a group of 3 members in a span
 - User authentication, admin authentication.
 - Dynamic Products.
 - Filtering, Sorting.
-- Create, Read, Update, Delete functionalities.
+- Create, Read, Update, and Delete functionalities.
 - All the pages are responsive.
 
 ## Contributors  😇
@@ -23,6 +23,7 @@ Shopcart is a e-commerce website which is made by a group of 3 members in a span
 - 👤 [Vipul Girhe]
 - 👤 [Saloni Goyal]
 - 👤 [Indrajeet Gupta]
+- 👤 [Sunny]
 
 
            
