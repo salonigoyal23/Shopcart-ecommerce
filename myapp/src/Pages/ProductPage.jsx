@@ -10,7 +10,9 @@ const ProductPage=()=>{
     let initialPage=searchParams.get(Number("page"))
     const[page,setPage]=useState(initialPage||1)
     
+    
     let paramsObj={
+
         params: {
           category: searchParams.get("category"),
           brand:searchParams.get("brand")&&searchParams.get("brand"),
