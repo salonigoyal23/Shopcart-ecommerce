@@ -32,7 +32,7 @@ const Navbar = () => {
                                 <div className="div" id="d1">
                                     <h5 className="h5"><Link to="/productpage">Furniture</Link></h5>
                                     <ul>
-                                        <li><Link to="/productpage">T-shirts</Link></li>
+                                        <li><Link to="/productpage">HeadPhones</Link></li>
                                         <li><Link to="/productpage">Casual Shirts</Link></li>
                                         <li><Link to="/productpage">Formal Shirts</Link></li>
                                         <li><Link to="/productpage">Sweatshirts</Link></li>
@@ -176,8 +176,8 @@ const Navbar = () => {
                         <div id="asim7" >
                             <div id="b">
                                 <div className="div" id="d1">
-                                    <h5 id="lh5">Welcome to Shopcart!</h5>
-                                    <p id="lp">To access your account and manage order</p>
+                                    <h5 id="lh5">Welcome</h5>
+                                    <p id="lp">To access account and manage order</p>
                                     <button id="ls"><Link to="/login">Login</Link></button>
                                     <br />
                                     <>
@@ -186,7 +186,7 @@ const Navbar = () => {
                                             <li><Link to="/productpage">Wishlist</Link></li>
                                             <li><Link to="/productpage">Gift card</Link></li>
                                             <li><Link to="/productpage">Contact us</Link></li>
-                                            {/* <li><Link to="/productpage">ShopCart Insider <button id="insider_span">New</button></Link></li> */}
+                                            <li><Link to="/productpage">ShopCart Insider <button id="insider_span">New</button></Link></li>
 
                                         </ul>
 

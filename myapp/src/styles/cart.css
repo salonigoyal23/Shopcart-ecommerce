@@ -1,0 +1,52 @@
+/* Add this to your existing CSS file or create a new one */
+.cart-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: -1px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-sidebar li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .cart-sidebar button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .cart-sidebar .checkout {
+    background-color: green;
+  }
+  /* cart.css */
+  .cart-sidebar .decreseBtn{
+    margin-right: 5px;
+  }
+  .cart-sidebar .increaseBtn {
+    position: relative; /* Add relative positioning */
+    top: -39px; /* Adjust the top position */
+    margin-left: 45px; /* Adjust the left margin */
+  }
+ 
+
+
+
+  
