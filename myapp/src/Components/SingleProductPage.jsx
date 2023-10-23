@@ -3,6 +3,7 @@ import "../styles/Singlepage.css";
 import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
 import Cart from './Cart'; 
+import Payment from '../Pages/Payment';
 
 const SingleProductPage = () => {   
 
@@ -11,6 +12,7 @@ const SingleProductPage = () => {
   const [product456,setproduct456]=useState({})
   const [cartItems, setCartItems] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
+  
 
   const imgs = document.querySelectorAll('.img-select a');
   const imgBtns = [...imgs];
@@ -170,6 +172,7 @@ const SingleProductPage = () => {
         </div>
       </div>
       {isCartOpen && <Cart cartItems={cartItems} updateQuantity={updateQuantity} removeFromCart={removeFromCart} />}
+      
     </div>
 
 

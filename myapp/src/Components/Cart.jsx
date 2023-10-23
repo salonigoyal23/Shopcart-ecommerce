@@ -1,9 +1,14 @@
 // Cart.jsx
-import React from 'react';
+import React, { useState } from 'react';
 import "../styles/cart.css";
 import { Link } from 'react-router-dom';
+import Payment from '../Pages/Payment';
 
 const Cart = ({ cartItems, removeFromCart, updateQuantity }) => {
+
+  const[ispayment,setIsPayment] = useState(false)
+  console.log(cartItems);
+
   const handleQuantityChange = (itemId, newQuantity) => {
     updateQuantity(itemId, newQuantity);
   };
@@ -23,7 +28,7 @@ const Cart = ({ cartItems, removeFromCart, updateQuantity }) => {
     <div className="cart-sidebar">
       <h2>Shopping Cart</h2>
       <ul>
-        {cartItems.map((item) => (
+        {cartItems?.map((item) => (
           <li key={item.id}>
             <img src={item.img[0]} alt={item.title} style={{ width: '50px', height: '50px' }} />
             <span>{item.title}</span><br />
@@ -42,10 +47,13 @@ const Cart = ({ cartItems, removeFromCart, updateQuantity }) => {
             </span><br />
             <span>Price: ${item.price * item.quantity}</span><br />
             <button onClick={() => removeFromCart(item.id)}>Remove</button><span>||</span>
-            <button className='checkout'><Link to={"/payment"} >Checkout</Link></button>
-          </li>
+            <button className='checkout'>
+            <Link to={{ pathname: "/payment", state: { item : item }}}>Checkout</Link>
+            </button> 
+          </li>  
         ))}
       </ul>
+      {/* {<Payment cartItems={cartItems}/>} */}
     </div>
   );
 };
